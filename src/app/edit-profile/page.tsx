@@ -1,6 +1,5 @@
 "use client";
 import MainNavbar from "@/components/MainNavbar";
-import Link from "next/link";
 import { useState, useEffect } from "react";
 import API from "@/utils/api";
 import { useAuth } from "@/utils/authContext";

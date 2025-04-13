@@ -1,5 +1,4 @@
 "use client";
-import AddFeed from "@/components/AddFeed"; // Assuming you have this component
 import MainNavbar from "@/components/MainNavbar";
 import Post from "@/components/Post";
 import Image from "next/image";

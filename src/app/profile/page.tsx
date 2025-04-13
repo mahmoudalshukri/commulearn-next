@@ -1,6 +1,5 @@
 "use client";
 import MainNavbar from "@/components/MainNavbar";
-import UserToFollow from "@/components/UserToFollow";
 import Image from "next/image";
 import Link from "next/link";
 import { useAuth } from "@/utils/authContext";
@@ -14,6 +13,8 @@ const Page = () => {
   const [loading, setLoading] = useState(true);
   const [profilePicture, setProfilePicture] = useState<File | null>(null);
   const [coverPhoto, setCoverPhoto] = useState<File | null>(null);
+  console.log(profilePicture);
+  console.log(coverPhoto);
 
   useEffect(() => {
     if (user) {

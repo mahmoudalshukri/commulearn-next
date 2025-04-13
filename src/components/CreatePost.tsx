@@ -6,7 +6,7 @@ import API from "@/utils/api";
 import { useAuth } from "@/utils/authContext";
 
 interface AddFeedProps {
-  onPostCreated: (newPost: any) => void;
+  onPostCreated: (newPost: unknown) => void;
 }
 
 const CreatePost = ({ onPostCreated }: AddFeedProps) => {

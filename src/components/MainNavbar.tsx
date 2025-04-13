@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Modal from "./Modal";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/utils/authContext";
 import API from "@/utils/api";
