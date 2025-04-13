@@ -3,7 +3,7 @@ import MainNavbar from "@/components/MainNavbar";
 import Image from "next/image";
 
 interface AccordionItem {
-  title: string;
+  title: unknown;
   content: string;
 }
 
