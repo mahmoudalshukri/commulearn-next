@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://commulearn-node.onrender.com/api", // Update with your backend URL
+  baseURL: "http://localhost:5000/api", // Update with your backend URL
 });
 
 API.interceptors.request.use((config) => {
